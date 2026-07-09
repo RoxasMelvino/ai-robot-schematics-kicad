@@ -1,38 +1,43 @@
-# ==============================================================================
-# KiCad Version Control Gitignore Template
-# Matches official GitHub templates for modern KiCad (v6, v7, v8, and v9)
-# ==============================================================================
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
 
-# Temporary, autosave, and local backup files
+# Temporary files
 *.000
 *.bak
 *.bck
 *.kicad_pcb-bak
 *.kicad_sch-bak
-*.sch-bak
+*-backups
+*-cache*
+*-bak
+*-bak*
 *~
+~*
 _autosave-*
+\#auto_saved_files\#
 *.tmp
 *-save.pro
 *-save.kicad_pcb
-
-# Automated project backup directories
-*-backups/
-
-# Local workspace/user-specific configuration settings
-# (Contains local window positions, panel states, and absolute file paths)
-*.kicad_prl
 fp-info-cache
+~*.lck
+\#auto_saved_files#
 
-# Netlists and intermediate build files (can be regenerated safely)
+# Netlist files (exported from Eeschema)
 *.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
 *.xml
+*.csv
 
-# Standard manufacturing output folders
-# (Uncomment these if you want to block Gerber and CAD export folders from Git)
-# Gerbers/
-# Output/
-# _gbr/
+# Archived Backups (KiCad 6.0)
+**/*-backups/*.zip
 
+# Local git-based history (KiCad 9.0+)
 .history
 
+# Local project settings
+*.kicad_prl
