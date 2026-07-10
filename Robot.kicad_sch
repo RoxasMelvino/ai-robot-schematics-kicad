@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "5327e841-c188-4aaa-a450-fde1e5fc6222")
 	(paper "A4")
+	(title_block
+		(title "AI Robot Schematic")
+		(date "2026-07-07")
+		(rev "0")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
@@ -1857,6 +1862,12 @@
 		)
 	)
 	(junction
+		(at 62.23 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "061fc32b-2658-475f-839b-5cb24ba71353")
+	)
+	(junction
 		(at 104.14 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1885,6 +1896,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3511f13b-a7c6-4457-b905-315f9a8e58d1")
+	)
+	(junction
+		(at 99.06 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39e4b106-d887-404b-9694-1bf9e3c280c9")
 	)
 	(junction
 		(at 66.04 82.55)
@@ -2016,13 +2033,33 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 80.01) (xy 64.77 80.01)
+			(xy 53.34 80.01) (xy 62.23 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "120bba6b-f4ef-488b-af11-cb722e71c37c")
+	)
+	(wire
+		(pts
+			(xy 99.06 78.74) (xy 99.06 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f84c86d-b93a-477d-995b-6777ac5e3548")
+	)
+	(wire
+		(pts
+			(xy 62.23 78.74) (xy 62.23 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aeaa76e-806e-46ba-87a8-d651f47a917b")
 	)
 	(wire
 		(pts
@@ -2146,6 +2183,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 80.01) (xy 104.14 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69aa006a-8bfc-4c39-8af3-9f76230901f6")
+	)
+	(wire
+		(pts
 			(xy 66.04 101.6) (xy 90.17 101.6)
 		)
 		(stroke
@@ -2246,7 +2293,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 80.01) (xy 104.14 80.01)
+			(xy 90.17 80.01) (xy 99.06 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2343,6 +2390,16 @@
 			(type default)
 		)
 		(uuid "f0de9773-6b9b-44d1-8e04-ea727557875f")
+	)
+	(wire
+		(pts
+			(xy 62.23 80.01) (xy 64.77 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f67a70ab-a863-4e83-ab74-774dc1653385")
 	)
 	(label "5V_Clean"
 		(at 92.71 80.01 0)
@@ -3183,6 +3240,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 62.23 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d85fa41d-9407-4987-bcde-8a5aceebff79")
+		(property "Reference" "#FLG05"
+			(at 62.23 76.835 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 62.484 74.676 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 62.23 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a13105e7-d779-47f3-9c5d-c25d079fe42d")
+		)
+		(instances
+			(project "Robot"
+				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 118.11 102.87 0)
 		(unit 1)
@@ -3334,6 +3468,83 @@
 			(project "Robot"
 				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 99.06 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fac39177-cd0f-47fd-b84d-59b3871c563d")
+		(property "Reference" "#FLG06"
+			(at 99.06 76.835 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 99.314 74.676 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 99.06 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "29ff947e-f0a1-48c7-80f8-60ee78256985")
+		)
+		(instances
+			(project "Robot"
+				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
