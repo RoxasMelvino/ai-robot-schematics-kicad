@@ -1861,6 +1861,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "This extra port will most likely be used for the claw"
+		(exclude_from_sim no)
+		(at 105.41 91.186 0)
+		(effects
+			(font
+				(size 0.127 0.127)
+			)
+		)
+		(uuid "888ec8e3-a57a-4823-8931-4325048cb732")
+	)
 	(junction
 		(at 62.23 80.01)
 		(diameter 0)
@@ -2729,7 +2739,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17edfb02-588c-4679-ac71-f559f62c8461")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 125.984 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2793,7 +2803,7 @@
 		(instances
 			(project "Robot"
 				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -2965,7 +2975,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6353d080-b792-43f9-80e1-ca2c5c93a7c3")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 125.984 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3029,7 +3039,7 @@
 		(instances
 			(project "Robot"
 				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3235,7 +3245,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0439156-10b1-4285-8a32-e28d835ed680")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 125.984 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3299,7 +3309,7 @@
 		(instances
 			(project "Robot"
 				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3550,7 +3560,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f43585e1-22fa-4f5b-9292-68347745b0ab")
-		(property "Reference" "J7"
+		(property "Reference" "J4"
 			(at 125.984 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3614,7 +3624,7 @@
 		(instances
 			(project "Robot"
 				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
-					(reference "J7")
+					(reference "J4")
 					(unit 1)
 				)
 			)
