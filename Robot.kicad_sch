@@ -1861,15 +1861,11 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "This extra port will most likely be used for the claw"
-		(exclude_from_sim no)
-		(at 105.41 91.186 0)
-		(effects
-			(font
-				(size 0.127 0.127)
-			)
-		)
-		(uuid "888ec8e3-a57a-4823-8931-4325048cb732")
+	(junction
+		(at 120.65 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04e070cd-aeff-4dc5-bd38-729603adc7af")
 	)
 	(junction
 		(at 62.23 80.01)
@@ -1882,12 +1878,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "097da82c-04f2-43d0-adf6-e16025a8e498")
-	)
-	(junction
-		(at 118.11 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10bc5de5-0533-4251-b4ee-6ed0a91b2321")
 	)
 	(junction
 		(at 41.91 101.6)
@@ -1996,16 +1986,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee23c662-b0a0-4419-a056-c2a58f629204")
-	)
-	(wire
-		(pts
-			(xy 118.11 101.6) (xy 118.11 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02afcddf-320d-44a8-b3d8-ef7872af90a9")
 	)
 	(wire
 		(pts
@@ -2269,6 +2249,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 101.6) (xy 120.65 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b036111-6a9b-41c7-9837-dfbdf1b0bd30")
+	)
+	(wire
+		(pts
 			(xy 64.77 80.01) (xy 80.01 80.01)
 		)
 		(stroke
@@ -2299,7 +2289,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 101.6) (xy 118.11 101.6)
+			(xy 110.49 101.6) (xy 120.65 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2366,16 +2356,6 @@
 			(type default)
 		)
 		(uuid "c3a0a0eb-1550-4eb5-b55c-7595a55dc657")
-	)
-	(wire
-		(pts
-			(xy 120.65 101.6) (xy 118.11 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce8850c0-1be0-4016-a5ad-1863aabff8de")
 	)
 	(wire
 		(pts
@@ -3136,6 +3116,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 120.65 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d455994-cbdb-4700-b1cd-78fb79aedb23")
+		(property "Reference" "#PWR02"
+			(at 120.65 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f09e256-15f2-4405-98bf-0447a02a494f")
+		)
+		(instances
+			(project "Robot"
+				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x08_Socket")
 		(at 71.12 87.63 0)
 		(unit 1)
@@ -3387,84 +3445,6 @@
 			(project "Robot"
 				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
 					(reference "#FLG05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 118.11 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9c48622-388d-43c6-946e-062e78f10a18")
-		(property "Reference" "#PWR02"
-			(at 118.11 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 118.11 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1f9ecd31-aec0-4088-a8ae-7d81d32e1e6b")
-		)
-		(instances
-			(project "Robot"
-				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
