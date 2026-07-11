@@ -1208,6 +1208,280 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Custom_Components:Cytron_MDD10A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -2.794 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Cytron MDD10A"
+				(at 6.096 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Cytron_MDD10A_0_0"
+				(pin power_in line
+					(at -6.35 -6.35 0)
+					(length 2.54)
+					(name "B+"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -6.35 -8.89 0)
+					(length 2.54)
+					(name "B-"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -11.43 180)
+					(length 2.54)
+					(name "M1A"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -8.89 180)
+					(length 2.54)
+					(name "M1B"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -6.35 180)
+					(length 2.54)
+					(name "M2A"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -3.81 180)
+					(length 2.54)
+					(name "M2B"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -15.24 90)
+					(length 2.54)
+					(name "PWM1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 -15.24 90)
+					(length 2.54)
+					(name "PWM2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -15.24 90)
+					(length 2.54)
+					(name "DIR1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "DIR2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Cytron_MDD10A_0_1"
+				(rectangle
+					(start -3.81 -2.54)
+					(end 11.43 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Battery"
 			(pin_numbers
 				(hide yes)
@@ -1934,6 +2208,18 @@
 		(uuid "64fd1854-de4a-4c50-ac63-dd268ce50cf3")
 	)
 	(junction
+		(at 120.65 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69ef7357-b1d4-4769-85d2-7bb9a9a60bbd")
+	)
+	(junction
+		(at 139.7 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76d9caed-cc03-43d5-9697-07afc2c79e60")
+	)
+	(junction
 		(at 66.04 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2029,6 +2315,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 133.35) (xy 142.24 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f45f2f9-a8dd-4c2c-89aa-8eb126730258")
+	)
+	(wire
+		(pts
 			(xy 99.06 78.74) (xy 99.06 80.01)
 		)
 		(stroke
@@ -2046,6 +2342,16 @@
 			(type default)
 		)
 		(uuid "2605b2f9-0d65-41da-a8fe-3753ce0f5e72")
+	)
+	(wire
+		(pts
+			(xy 91.44 116.84) (xy 91.44 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f08b99-d6ca-4ef2-a088-94a61a90697f")
 	)
 	(wire
 		(pts
@@ -2069,6 +2375,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 118.11) (xy 139.7 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3471698e-18d5-4c73-9af7-35acb23c706d")
+	)
+	(wire
+		(pts
 			(xy 41.91 83.82) (xy 41.91 80.01)
 		)
 		(stroke
@@ -2076,6 +2392,16 @@
 			(type default)
 		)
 		(uuid "35b5a894-724d-4b97-b0e2-5fbdd92c2b71")
+	)
+	(wire
+		(pts
+			(xy 74.93 123.19) (xy 77.47 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a6421f0-c928-426a-a0a8-a8ef04679ac6")
 	)
 	(wire
 		(pts
@@ -2096,6 +2422,16 @@
 			(type default)
 		)
 		(uuid "3f4d098e-98b5-4146-aa92-70f13165c712")
+	)
+	(wire
+		(pts
+			(xy 66.04 87.63) (xy 76.2 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46178587-075d-4461-b757-dce910600422")
 	)
 	(wire
 		(pts
@@ -2159,6 +2495,36 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 92.71) (xy 73.66 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e41897-186f-4f39-84c3-857a68e08876")
+	)
+	(wire
+		(pts
+			(xy 91.44 133.35) (xy 142.24 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "599e6e82-0362-418f-a24c-351a2766fbf9")
+	)
+	(wire
+		(pts
+			(xy 139.7 118.11) (xy 139.7 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a891758-a53e-46b9-832f-455e739a1b1c")
+	)
+	(wire
+		(pts
 			(xy 110.49 100.33) (xy 110.49 101.6)
 		)
 		(stroke
@@ -2199,6 +2565,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 125.73) (xy 77.47 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "681562f6-bfbd-445a-a0a1-19d069c8df56")
+	)
+	(wire
+		(pts
 			(xy 99.06 80.01) (xy 104.14 80.01)
 		)
 		(stroke
@@ -2226,6 +2602,26 @@
 			(type default)
 		)
 		(uuid "780bf075-88c7-47fb-bfbe-b360f237bfda")
+	)
+	(wire
+		(pts
+			(xy 76.2 110.49) (xy 77.47 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7966f1fe-36ac-438c-bcb0-29b6fd3539c9")
+	)
+	(wire
+		(pts
+			(xy 91.44 132.08) (xy 91.44 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a4fb76b-1fda-4df7-ae0f-8bd738659c8e")
 	)
 	(wire
 		(pts
@@ -2279,6 +2675,26 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 85.09) (xy 77.47 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9060a2d9-e587-4d8c-b264-360fa2dab6e6")
+	)
+	(wire
+		(pts
+			(xy 77.47 85.09) (xy 77.47 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90872f7a-e613-4f8f-ab29-c88f5d5db127")
+	)
+	(wire
+		(pts
 			(xy 66.04 82.55) (xy 80.01 82.55)
 		)
 		(stroke
@@ -2306,6 +2722,26 @@
 			(type default)
 		)
 		(uuid "b0d72b3f-3e91-45dd-b8b9-07f23e2bb17f")
+	)
+	(wire
+		(pts
+			(xy 74.93 90.17) (xy 74.93 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1b69a60-391c-445a-b17c-4d1a056ac3b9")
+	)
+	(wire
+		(pts
+			(xy 142.24 78.74) (xy 139.7 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8cf66d4-069b-4051-b52d-646a188321ca")
 	)
 	(wire
 		(pts
@@ -2359,6 +2795,36 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 90.17) (xy 74.93 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c56ac8b3-0eb9-4cfa-b6b4-6fcf005059ec")
+	)
+	(wire
+		(pts
+			(xy 139.7 78.74) (xy 120.65 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c886507d-5361-4ce0-9fff-c02badd5c7bf")
+	)
+	(wire
+		(pts
+			(xy 66.04 92.71) (xy 73.66 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d86a74b3-d29c-41ed-9def-b4c13a99c8c3")
+	)
+	(wire
+		(pts
 			(xy 41.91 80.01) (xy 45.72 80.01)
 		)
 		(stroke
@@ -2396,6 +2862,16 @@
 			(type default)
 		)
 		(uuid "e1738ed6-d38e-40d1-b67a-d891cf762bb9")
+	)
+	(wire
+		(pts
+			(xy 76.2 87.63) (xy 76.2 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e21284ff-8a0c-4875-bb80-b1ca9329a467")
 	)
 	(wire
 		(pts
@@ -3293,6 +3769,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Custom_Components:Cytron_MDD10A")
+		(at 83.82 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "722941ab-41f0-4b80-8526-35815a31b0da")
+		(property "Reference" "U1"
+			(at 84.328 108.458 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Value" "Cytron MDD10A"
+			(at 89.154 108.458 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "367f5a9d-a637-4c4d-b86e-1ef0560ff651")
+		)
+		(pin "10"
+			(uuid "fb86b48a-5d43-49c9-9255-1214788b7d78")
+		)
+		(pin "11"
+			(uuid "aa3e3928-b104-450a-9431-da591bb9c00f")
+		)
+		(pin "2"
+			(uuid "8099ff81-3bef-43c6-beff-badd20404be8")
+		)
+		(pin "1"
+			(uuid "fadfd8d7-6936-428d-af1e-26c88af6733e")
+		)
+		(pin "7"
+			(uuid "b301822a-f68d-44a4-b78c-7a8bfec20f55")
+		)
+		(pin "5"
+			(uuid "884a01c9-1c56-4867-b26e-bd864d99a473")
+		)
+		(pin "9"
+			(uuid "7a8cf329-4d6a-4a46-ba9d-ebde220eed98")
+		)
+		(pin "3"
+			(uuid "8434de72-1bb7-438c-84ff-1d59fb6b7516")
+		)
+		(pin "4"
+			(uuid "0be499ee-9e0a-4c3d-a2be-60a71ea97665")
+		)
+		(pin "6"
+			(uuid "475871a3-b09e-4040-b90b-b22a4b4ec61c")
+		)
+		(instances
+			(project "Robot"
+				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 125.73 81.28 0)
 		(unit 1)
@@ -3682,6 +4264,112 @@
 			(project "Robot"
 				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
 					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_Components:Cytron_MDD10A")
+		(at 83.82 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fbeb4297-7b39-45fd-938e-3056b2cb31ed")
+		(property "Reference" "U2"
+			(at 84.328 123.444 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Value" "Cytron MDD10A"
+			(at 88.9 123.444 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "5a8a38f4-fb01-489f-8bf5-a3f60ac7ee40")
+		)
+		(pin "10"
+			(uuid "6bbc9613-9ef9-4b8d-a6e1-1692125fd676")
+		)
+		(pin "6"
+			(uuid "991c9d3b-2fc5-4f85-9c64-b928804e48c8")
+		)
+		(pin "11"
+			(uuid "9dfdd765-1193-4ebe-a99a-36f6f89607e8")
+		)
+		(pin "8"
+			(uuid "7dd5a1fd-2c40-44fc-b697-7aebbd8bd489")
+		)
+		(pin "1"
+			(uuid "2c7c3db8-d009-4f71-9a8f-9043d731fefc")
+		)
+		(pin "5"
+			(uuid "0a5f4e54-2db9-4543-9ed3-39ae8ac13f93")
+		)
+		(pin "4"
+			(uuid "96c12c8d-07b8-48ce-a931-027087ced499")
+		)
+		(pin "3"
+			(uuid "c522eadb-a895-4239-86e0-c3cfdf34e931")
+		)
+		(pin "2"
+			(uuid "b2c527fb-18fe-4e04-9f5a-d6ff395b6aa2")
+		)
+		(pin "7"
+			(uuid "3ceb1498-cc4e-46bc-afa6-fde65586f54f")
+		)
+		(instances
+			(project "Robot"
+				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
+					(reference "U2")
 					(unit 1)
 				)
 			)
