@@ -1752,40 +1752,36 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Fuse"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
+		(symbol "Device:CircuitBreaker_1P_US"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "F"
-				(at 2.032 0 90)
+			(property "Reference" "CB"
+				(at 3.175 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "Fuse"
-				(at -1.905 0 90)
+			(property "Value" "CircuitBreaker_1P_US"
+				(at 3.175 0.635 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1806,7 +1802,160 @@
 					)
 				)
 			)
-			(property "Description" "Fuse"
+			(property "Description" "Single pole circuit breaker, US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "CB"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CircuitBreaker_1P_US_0_1"
+				(arc
+					(start 1.905 3.81)
+					(mid 2.8044 0)
+					(end 1.905 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 4.445)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -4.445)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CircuitBreaker_1P_US_1_1"
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Fuse_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse_Small"
+				(at 0 1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fuse, small symbol"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1839,12 +1988,12 @@
 					)
 				)
 			)
-			(symbol "Fuse_0_1"
+			(symbol "Fuse_Small_0_1"
 				(rectangle
-					(start -0.762 -2.54)
-					(end 0.762 2.54)
+					(start -1.27 0.508)
+					(end 1.27 -0.508)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1853,7 +2002,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 -2.54)
+						(xy -1.27 0) (xy 1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -1864,9 +2013,9 @@
 					)
 				)
 			)
-			(symbol "Fuse_1_1"
+			(symbol "Fuse_Small_1_1"
 				(pin passive line
-					(at 0 3.81 270)
+					(at -2.54 0 0)
 					(length 1.27)
 					(name ""
 						(effects
@@ -1884,7 +2033,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
+					(at 2.54 0 180)
 					(length 1.27)
 					(name ""
 						(effects
@@ -2154,12 +2303,6 @@
 		(uuid "097da82c-04f2-43d0-adf6-e16025a8e498")
 	)
 	(junction
-		(at 41.91 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2609a63e-74a7-4b68-8e84-a28f79b75744")
-	)
-	(junction
 		(at 64.77 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2256,6 +2399,12 @@
 		(uuid "cf2daef6-fb8e-4901-8784-6716f3e32ef7")
 	)
 	(junction
+		(at 34.29 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e059005c-67d5-45cb-bcf0-05e0c7d01085")
+	)
+	(junction
 		(at 120.65 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2315,7 +2464,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 133.35) (xy 142.24 78.74)
+			(xy 142.24 137.16) (xy 142.24 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2345,7 +2494,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 116.84) (xy 91.44 118.11)
+			(xy 91.44 120.65) (xy 91.44 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2375,7 +2524,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 118.11) (xy 139.7 118.11)
+			(xy 91.44 121.92) (xy 139.7 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2385,7 +2534,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 83.82) (xy 41.91 80.01)
+			(xy 34.29 83.82) (xy 34.29 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2395,7 +2544,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 123.19) (xy 77.47 123.19)
+			(xy 74.93 127) (xy 77.47 127)
 		)
 		(stroke
 			(width 0)
@@ -2445,16 +2594,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 101.6) (xy 66.04 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bfcc23a-3d79-44c5-b427-211808b31e31")
-	)
-	(wire
-		(pts
 			(xy 80.01 87.63) (xy 80.01 101.6)
 		)
 		(stroke
@@ -2485,7 +2624,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 93.98) (xy 41.91 101.6)
+			(xy 34.29 93.98) (xy 34.29 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2495,7 +2634,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 92.71) (xy 73.66 125.73)
+			(xy 73.66 92.71) (xy 73.66 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2505,7 +2644,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 133.35) (xy 142.24 133.35)
+			(xy 91.44 137.16) (xy 142.24 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2515,13 +2654,23 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 118.11) (xy 139.7 78.74)
+			(xy 139.7 121.92) (xy 139.7 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5a891758-a53e-46b9-832f-455e739a1b1c")
+	)
+	(wire
+		(pts
+			(xy 77.47 99.06) (xy 77.47 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aa6fec3-a701-49ed-9cf7-a6156cbbf7d2")
 	)
 	(wire
 		(pts
@@ -2545,6 +2694,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 121.92) (xy 74.93 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "659961c2-839a-45d1-af0c-7446fdd83153")
+	)
+	(wire
+		(pts
 			(xy 113.03 80.01) (xy 113.03 76.2)
 		)
 		(stroke
@@ -2565,7 +2724,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 125.73) (xy 77.47 125.73)
+			(xy 73.66 129.54) (xy 77.47 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2595,6 +2754,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 101.6) (xy 66.04 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765863c4-e126-4ba4-8453-d0034bfe3a73")
+	)
+	(wire
+		(pts
 			(xy 104.14 82.55) (xy 104.14 85.09)
 		)
 		(stroke
@@ -2605,7 +2774,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 110.49) (xy 77.47 110.49)
+			(xy 76.2 114.3) (xy 77.47 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2615,7 +2784,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 132.08) (xy 91.44 133.35)
+			(xy 91.44 135.89) (xy 91.44 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2632,6 +2801,16 @@
 			(type default)
 		)
 		(uuid "7e7dd022-1e3f-4e66-ac80-74540e0b95ee")
+	)
+	(wire
+		(pts
+			(xy 34.29 102.87) (xy 34.29 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "803db8c4-306f-4d0a-8bed-c52a4dbcc4fd")
 	)
 	(wire
 		(pts
@@ -2655,13 +2834,23 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 80.01) (xy 80.01 80.01)
+			(xy 64.77 80.01) (xy 73.66 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8d0544e0-fe63-4360-95a6-a9d33ff7b50b")
+	)
+	(wire
+		(pts
+			(xy 66.04 101.6) (xy 66.04 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e7676dc-caa1-4b49-ad59-0b24271a2844")
 	)
 	(wire
 		(pts
@@ -2685,7 +2874,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 85.09) (xy 77.47 107.95)
+			(xy 77.47 85.09) (xy 77.47 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2725,7 +2914,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 90.17) (xy 74.93 123.19)
+			(xy 74.93 90.17) (xy 74.93 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2825,7 +3014,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 80.01) (xy 45.72 80.01)
+			(xy 34.29 80.01) (xy 38.1 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2865,7 +3054,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 87.63) (xy 76.2 110.49)
+			(xy 76.2 87.63) (xy 76.2 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2905,6 +3094,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 101.6) (xy 80.01 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d2c2c3-8454-44ff-9fe1-293c50ea418d")
+	)
+	(wire
+		(pts
 			(xy 62.23 80.01) (xy 64.77 80.01)
 		)
 		(stroke
@@ -2912,6 +3111,16 @@
 			(type default)
 		)
 		(uuid "f67a70ab-a863-4e83-ab74-774dc1653385")
+	)
+	(wire
+		(pts
+			(xy 78.74 80.01) (xy 80.01 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f81b2afb-ae73-4543-a804-6ec1f29533e0")
 	)
 	(wire
 		(pts
@@ -3072,7 +3281,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 41.91 88.9 0)
+		(at 34.29 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3082,7 +3291,7 @@
 		(dnp no)
 		(uuid "0f6a2b20-02f4-4d7c-9941-a00d44e0c110")
 		(property "Reference" "BT1"
-			(at 33.274 88.138 0)
+			(at 25.654 88.138 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3093,7 +3302,7 @@
 			)
 		)
 		(property "Value" "12V Battery"
-			(at 33.274 90.678 0)
+			(at 25.654 90.678 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3104,7 +3313,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 87.376 90)
+			(at 34.29 87.376 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3115,7 +3324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 87.376 90)
+			(at 34.29 87.376 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3126,7 +3335,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 41.91 88.9 0)
+			(at 34.29 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3137,7 +3346,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 41.91 88.9 0)
+			(at 34.29 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3148,7 +3357,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 41.91 88.9 0)
+			(at 34.29 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3159,7 +3368,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 41.91 88.9 0)
+			(at 34.29 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3266,8 +3475,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 41.91 101.6 0)
+		(lib_id "Device:Fuse_Small")
+		(at 74.93 119.38 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3275,31 +3484,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b795e25-6268-483b-9e74-ec1385c526ff")
-		(property "Reference" "#PWR01"
-			(at 41.91 107.95 0)
-			(hide yes)
+		(uuid "1d6f5990-1dde-46dc-b92c-49f0686d4990")
+		(property "Reference" "F4"
+			(at 75.692 118.618 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.508 0.508)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 41.91 106.68 0)
+		(property "Value" "20A"
+			(at 75.692 119.634 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.508 0.508)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 101.6 0)
+			(at 74.93 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3310,7 +3519,87 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 101.6 0)
+			(at 74.93 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 74.93 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ff0db529-edb1-45b4-bab2-bd7ad0c91a23")
+		)
+		(pin "1"
+			(uuid "ce5a82e7-128b-4c4a-89b9-1d00ad33cea2")
+		)
+		(instances
+			(project "Robot"
+				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
+					(reference "F4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.29 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3b795e25-6268-483b-9e74-ec1385c526ff")
+		(property "Reference" "#PWR01"
+			(at 34.29 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 106.426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3321,7 +3610,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 101.6 0)
+			(at 34.29 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3415,6 +3704,86 @@
 			(project "Robot"
 				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
 					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:CircuitBreaker_1P_US")
+		(at 45.72 80.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60adf944-ef27-43e8-90db-8cbcff3eeb1c")
+		(property "Reference" "CB1"
+			(at 45.72 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50A Breaker"
+			(at 45.72 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single pole circuit breaker, US symbol"
+			(at 45.72 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed1e233d-88c9-409c-82bb-5db3da4ee330")
+		)
+		(pin "2"
+			(uuid "86cc78fa-fc16-443b-b295-4f5a3fa9df81")
+		)
+		(instances
+			(project "Robot"
+				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
+					(reference "CB1")
 					(unit 1)
 				)
 			)
@@ -3601,7 +3970,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6d455994-cbdb-4700-b1cd-78fb79aedb23")
 		(property "Reference" "#PWR02"
 			(at 120.65 109.22 0)
@@ -3615,12 +3983,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 107.95 0)
+			(at 120.65 106.426 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 			)
 		)
@@ -3681,23 +4049,23 @@
 		(dnp no)
 		(uuid "6d636124-0880-4886-b3dc-7e212207348f")
 		(property "Reference" "J1"
-			(at 64.262 76.962 0)
+			(at 64.77 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 0.635 0.635)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "XT60 4Port PDB"
-			(at 65.786 76.962 0)
+			(at 66.294 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 0.635 0.635)
 				)
 				(justify left)
 			)
@@ -3770,7 +4138,7 @@
 	)
 	(symbol
 		(lib_id "Custom_Components:Cytron_MDD10A")
-		(at 83.82 101.6 0)
+		(at 83.82 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3780,7 +4148,7 @@
 		(dnp no)
 		(uuid "722941ab-41f0-4b80-8526-35815a31b0da")
 		(property "Reference" "U1"
-			(at 84.328 108.458 0)
+			(at 84.328 112.268 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3790,7 +4158,7 @@
 			)
 		)
 		(property "Value" "Cytron MDD10A"
-			(at 89.154 108.458 0)
+			(at 89.154 112.268 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3800,7 +4168,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 101.6 0)
+			(at 83.82 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3811,7 +4179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 101.6 0)
+			(at 83.82 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3822,7 +4190,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 101.6 0)
+			(at 83.82 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3869,6 +4237,320 @@
 			(project "Robot"
 				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 76.2 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8879e7f0-5966-43f5-94fd-9401f826c5ac")
+		(property "Reference" "F2"
+			(at 74.93 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Value" "5A"
+			(at 76.708 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 76.2 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a261e52-1cc2-41d4-8070-6e3ec93f7cf2")
+		)
+		(pin "2"
+			(uuid "7c6a9d9a-998e-4d73-8741-9661ad5ea7dd")
+		)
+		(instances
+			(project "Robot"
+				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80.01 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "896bee5d-7996-4934-834e-7ddd1146de6b")
+		(property "Reference" "#PWR03"
+			(at 80.01 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 106.426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef3e03fb-b207-4699-8307-d1a4bf6742eb")
+		)
+		(instances
+			(project "Robot"
+				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8ed6b6fa-5f01-4a3a-ac96-125681664043")
+		(property "Reference" "#PWR04"
+			(at 66.04 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 106.172 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7cff8c87-3379-448a-8a80-2919440c5ae4")
+		)
+		(instances
+			(project "Robot"
+				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 77.47 96.52 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bb881aad-b8ad-49b6-824d-1ef07df64824")
+		(property "Reference" "F3"
+			(at 78.232 95.758 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20A"
+			(at 78.232 96.774 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 77.47 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "50819c73-2ac9-459d-b57a-d667690edb90")
+		)
+		(pin "1"
+			(uuid "ba600c94-ba7a-4498-b74d-d325db8ad573")
+		)
+		(instances
+			(project "Robot"
+				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -4027,85 +4709,6 @@
 			(project "Robot"
 				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
 					(reference "#FLG05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 49.53 80.01 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e75a57c6-baf5-4234-9cea-9b5936ff39a3")
-		(property "Reference" "F1"
-			(at 47.244 77.978 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 49.276 77.978 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 81.788 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 49.53 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fea99bcf-16b3-4a30-ae0f-0410fe8f7e77")
-		)
-		(pin "1"
-			(uuid "af987f50-aac5-4258-9ea1-0fe1cc4be00d")
-		)
-		(instances
-			(project "Robot"
-				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
-					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -4271,7 +4874,7 @@
 	)
 	(symbol
 		(lib_id "Custom_Components:Cytron_MDD10A")
-		(at 83.82 116.84 0)
+		(at 83.82 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4281,7 +4884,7 @@
 		(dnp no)
 		(uuid "fbeb4297-7b39-45fd-938e-3056b2cb31ed")
 		(property "Reference" "U2"
-			(at 84.328 123.444 0)
+			(at 84.328 127.254 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4291,7 +4894,7 @@
 			)
 		)
 		(property "Value" "Cytron MDD10A"
-			(at 88.9 123.444 0)
+			(at 88.9 127.254 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4301,7 +4904,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 116.84 0)
+			(at 83.82 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4312,7 +4915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 116.84 0)
+			(at 83.82 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4323,7 +4926,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 116.84 0)
+			(at 83.82 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
