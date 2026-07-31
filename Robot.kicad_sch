@@ -195,274 +195,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x04_Socket"
-			(pin_names
-				(offset 1.27)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J2"
-				(at 8.128 -0.508 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Conn_01x04_Socket"
-				(at 10.922 -0.508 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x04_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.032)
-					(mid -0.5058 2.54)
-					(end 0 3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -5.588)
-					(mid -0.5058 -5.08)
-					(end 0 -4.572)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "IN+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "IN-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "OUT+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "OUT-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x05_Socket"
 			(pin_names
 				(offset 1.016)
@@ -1376,7 +1108,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 7.62 -15.24 90)
 					(length 2.54)
 					(name "GND"
@@ -1471,6 +1203,338 @@
 				(rectangle
 					(start -3.81 -2.54)
 					(end 11.43 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Custom_Components:JGB37-520_12V"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 -4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Value" "JGB37-520"
+				(at 2.794 -4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "JGB37-520_12V_0_0"
+				(pin power_in line
+					(at -5.08 -6.35 0)
+					(length 2.54)
+					(name "Motor+"
+						(effects
+							(font
+								(size 0.381 0.381)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -8.89 0)
+					(length 2.54)
+					(name "Motor-"
+						(effects
+							(font
+								(size 0.381 0.381)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -12.7 90)
+					(length 2.54)
+					(name "Hall_GND"
+						(effects
+							(font
+								(size 0.381 0.381)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -12.7 90)
+					(length 2.54)
+					(name "Hall_VCC"
+						(effects
+							(font
+								(size 0.381 0.381)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -6.35 180)
+					(length 2.54)
+					(name "Hall_VOUT"
+						(effects
+							(font
+								(size 0.381 0.381)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -8.89 180)
+					(length 2.54)
+					(name "Hall_VOUT"
+						(effects
+							(font
+								(size 0.381 0.381)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+			)
+			(symbol "JGB37-520_12V_0_1"
+				(rectangle
+					(start -2.54 -5.08)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Custom_Components:LM2596_Buck_Converter"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -4.572 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Value" "LM2596 Buck Converter"
+				(at 2.032 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LM2596_Buck_Converter_0_0"
+				(pin power_in line
+					(at -6.35 -3.81 0)
+					(length 2.54)
+					(name "IN+"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -6.35 -6.35 0)
+					(length 2.54)
+					(name "IN-"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name "OUT+"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 -6.35 180)
+					(length 2.54)
+					(name "OUT-"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM2596_Buck_Converter_0_1"
+				(rectangle
+					(start -3.81 -2.54)
+					(end 5.08 -7.62)
 					(stroke
 						(width 0)
 						(type default)
@@ -2285,19 +2349,13 @@
 		)
 	)
 	(junction
-		(at 120.65 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04e070cd-aeff-4dc5-bd38-729603adc7af")
-	)
-	(junction
 		(at 62.23 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "061fc32b-2658-475f-839b-5cb24ba71353")
 	)
 	(junction
-		(at 104.14 80.01)
+		(at 107.95 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "097da82c-04f2-43d0-adf6-e16025a8e498")
@@ -2309,19 +2367,19 @@
 		(uuid "31989d54-7250-43d7-a0b7-e69efb3c0f82")
 	)
 	(junction
-		(at 104.14 85.09)
+		(at 107.95 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32fb4014-d753-42b5-9d9d-467716ac9931")
 	)
 	(junction
-		(at 104.14 87.63)
+		(at 107.95 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3511f13b-a7c6-4457-b905-315f9a8e58d1")
 	)
 	(junction
-		(at 99.06 80.01)
+		(at 102.87 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39e4b106-d887-404b-9694-1bf9e3c280c9")
@@ -2339,6 +2397,12 @@
 		(uuid "481e1c2c-02cd-4a18-bfa8-7109cea8609d")
 	)
 	(junction
+		(at 124.46 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d77c29b-9ef9-4cba-a2f5-2fceea591250")
+	)
+	(junction
 		(at 110.49 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2349,18 +2413,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64fd1854-de4a-4c50-ac63-dd268ce50cf3")
-	)
-	(junction
-		(at 120.65 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69ef7357-b1d4-4769-85d2-7bb9a9a60bbd")
-	)
-	(junction
-		(at 139.7 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76d9caed-cc03-43d5-9697-07afc2c79e60")
 	)
 	(junction
 		(at 66.04 87.63)
@@ -2375,25 +2427,31 @@
 		(uuid "8ac3811c-a2cc-4cc3-b241-fbc5e0019008")
 	)
 	(junction
-		(at 80.01 101.6)
+		(at 90.17 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a548a34d-b624-4181-9437-d4669f53c868")
+		(uuid "8b0c87a5-7272-4708-af0a-5bb3fde568d8")
 	)
 	(junction
-		(at 120.65 88.9)
+		(at 96.52 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c64b854-b735-444a-87be-dd2b20d904ec")
+	)
+	(junction
+		(at 124.46 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad003362-b669-4963-bd36-0e11e65ff954")
 	)
 	(junction
-		(at 120.65 93.98)
+		(at 124.46 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce9c0fef-739b-4bbe-9b93-e9a20b492ca1")
 	)
 	(junction
-		(at 104.14 82.55)
+		(at 107.95 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf2daef6-fb8e-4901-8784-6716f3e32ef7")
@@ -2403,12 +2461,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e059005c-67d5-45cb-bcf0-05e0c7d01085")
-	)
-	(junction
-		(at 120.65 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3320b85-476f-4a58-a93a-9bcdf1bbc9ea")
 	)
 	(junction
 		(at 64.77 85.09)
@@ -2424,17 +2476,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 76.2) (xy 119.38 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06674ef7-6cca-4a48-af5a-6ff4a894c95f")
-	)
-	(wire
-		(pts
-			(xy 104.14 85.09) (xy 104.14 87.63)
+			(xy 107.95 85.09) (xy 107.95 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2444,7 +2486,27 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 87.63) (xy 104.14 90.17)
+			(xy 64.77 85.09) (xy 73.66 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f8d169-b36d-4998-83ac-4d7ae37d8b23")
+	)
+	(wire
+		(pts
+			(xy 73.66 88.9) (xy 74.93 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a1461c8-c887-4236-b1e7-70390d03dacc")
+	)
+	(wire
+		(pts
+			(xy 107.95 87.63) (xy 107.95 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2464,17 +2526,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 137.16) (xy 142.24 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f45f2f9-a8dd-4c2c-89aa-8eb126730258")
-	)
-	(wire
-		(pts
-			(xy 99.06 78.74) (xy 99.06 80.01)
+			(xy 102.87 78.74) (xy 102.87 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2484,23 +2536,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 82.55) (xy 113.03 81.28)
+			(xy 96.52 101.6) (xy 110.49 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2360e53e-89c2-4174-972d-c4255050a02d")
+	)
+	(wire
+		(pts
+			(xy 116.84 82.55) (xy 116.84 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2605b2f9-0d65-41da-a8fe-3753ce0f5e72")
-	)
-	(wire
-		(pts
-			(xy 91.44 120.65) (xy 91.44 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26f08b99-d6ca-4ef2-a088-94a61a90697f")
 	)
 	(wire
 		(pts
@@ -2514,23 +2566,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 83.82) (xy 120.65 88.9)
+			(xy 124.46 83.82) (xy 124.46 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "31d2ffb6-f495-4bc3-ae1a-5f5890f1934b")
-	)
-	(wire
-		(pts
-			(xy 91.44 121.92) (xy 139.7 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3471698e-18d5-4c73-9af7-35acb23c706d")
 	)
 	(wire
 		(pts
@@ -2544,17 +2586,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 127) (xy 77.47 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a6421f0-c928-426a-a0a8-a8ef04679ac6")
-	)
-	(wire
-		(pts
-			(xy 120.65 93.98) (xy 120.65 101.6)
+			(xy 124.46 93.98) (xy 124.46 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2564,7 +2596,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 82.55) (xy 113.03 82.55)
+			(xy 107.95 82.55) (xy 116.84 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2574,13 +2606,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 87.63) (xy 76.2 87.63)
+			(xy 73.66 87.63) (xy 73.66 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46178587-075d-4461-b757-dce910600422")
+		(uuid "4352bfb5-f0ad-447a-b36b-c0f83406e40f")
 	)
 	(wire
 		(pts
@@ -2594,16 +2626,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 87.63) (xy 80.01 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c8e7cbc-6844-4d1b-b5af-fda5c336aa0b")
-	)
-	(wire
-		(pts
 			(xy 66.04 87.63) (xy 66.04 92.71)
 		)
 		(stroke
@@ -2611,16 +2633,6 @@
 			(type default)
 		)
 		(uuid "4f779342-b022-4570-a0cc-ff6565d80b06")
-	)
-	(wire
-		(pts
-			(xy 104.14 80.01) (xy 113.03 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54adc24a-8caa-421e-aa63-4b1e49e0e753")
 	)
 	(wire
 		(pts
@@ -2634,43 +2646,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 92.71) (xy 73.66 129.54)
+			(xy 66.04 87.63) (xy 73.66 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56e41897-186f-4f39-84c3-857a68e08876")
-	)
-	(wire
-		(pts
-			(xy 91.44 137.16) (xy 142.24 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "599e6e82-0362-418f-a24c-351a2766fbf9")
-	)
-	(wire
-		(pts
-			(xy 139.7 121.92) (xy 139.7 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a891758-a53e-46b9-832f-455e739a1b1c")
-	)
-	(wire
-		(pts
-			(xy 77.47 99.06) (xy 77.47 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5aa6fec3-a701-49ed-9cf7-a6156cbbf7d2")
+		(uuid "6132759f-5e2e-4e12-b324-17f352f9972c")
 	)
 	(wire
 		(pts
@@ -2694,26 +2676,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 121.92) (xy 74.93 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "659961c2-839a-45d1-af0c-7446fdd83153")
-	)
-	(wire
-		(pts
-			(xy 113.03 80.01) (xy 113.03 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6720aeb1-3bdf-42e2-b2ee-86fd444f4c19")
-	)
-	(wire
-		(pts
 			(xy 66.04 82.55) (xy 66.04 87.63)
 		)
 		(stroke
@@ -2724,17 +2686,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 129.54) (xy 77.47 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "681562f6-bfbd-445a-a0a1-19d069c8df56")
-	)
-	(wire
-		(pts
-			(xy 99.06 80.01) (xy 104.14 80.01)
+			(xy 102.87 80.01) (xy 107.95 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2744,7 +2696,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 101.6) (xy 80.01 101.6)
+			(xy 66.04 101.6) (xy 90.17 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2764,7 +2716,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 82.55) (xy 104.14 85.09)
+			(xy 107.95 82.55) (xy 107.95 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2774,23 +2726,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 114.3) (xy 77.47 114.3)
+			(xy 73.66 86.36) (xy 74.93 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7966f1fe-36ac-438c-bcb0-29b6fd3539c9")
-	)
-	(wire
-		(pts
-			(xy 91.44 135.89) (xy 91.44 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a4fb76b-1fda-4df7-ae0f-8bd738659c8e")
+		(uuid "7b34e259-eeb8-4cd4-934d-d155bac6e1b7")
 	)
 	(wire
 		(pts
@@ -2804,6 +2746,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 88.9) (xy 90.17 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80220f34-4142-4497-9496-9b605068f1a7")
+	)
+	(wire
+		(pts
 			(xy 34.29 102.87) (xy 34.29 101.6)
 		)
 		(stroke
@@ -2814,17 +2766,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 85.09) (xy 90.17 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "863bd616-6748-4c26-8315-865fb7f4d683")
-	)
-	(wire
-		(pts
-			(xy 120.65 101.6) (xy 120.65 102.87)
+			(xy 124.46 101.6) (xy 124.46 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2854,33 +2796,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 86.36) (xy 119.38 86.36)
+			(xy 116.84 86.36) (xy 123.19 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8ff6ddc7-abfa-4c80-aba8-474d38192e3e")
-	)
-	(wire
-		(pts
-			(xy 64.77 85.09) (xy 77.47 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9060a2d9-e587-4d8c-b264-360fa2dab6e6")
-	)
-	(wire
-		(pts
-			(xy 77.47 85.09) (xy 77.47 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90872f7a-e613-4f8f-ab29-c88f5d5db127")
 	)
 	(wire
 		(pts
@@ -2894,7 +2816,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 101.6) (xy 120.65 101.6)
+			(xy 110.49 101.6) (xy 124.46 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2904,7 +2826,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 91.44) (xy 119.38 91.44)
+			(xy 116.84 91.44) (xy 123.19 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2914,27 +2836,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 90.17) (xy 74.93 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1b69a60-391c-445a-b17c-4d1a056ac3b9")
-	)
-	(wire
-		(pts
-			(xy 142.24 78.74) (xy 139.7 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8cf66d4-069b-4051-b52d-646a188321ca")
-	)
-	(wire
-		(pts
-			(xy 104.14 80.01) (xy 104.14 82.55)
+			(xy 107.95 80.01) (xy 107.95 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2944,7 +2846,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 81.28) (xy 119.38 81.28)
+			(xy 116.84 81.28) (xy 123.19 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2954,17 +2856,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 101.6) (xy 110.49 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf14c6a5-9e08-4dff-92d6-42b170e84ecb")
-	)
-	(wire
-		(pts
-			(xy 120.65 88.9) (xy 120.65 93.98)
+			(xy 124.46 88.9) (xy 124.46 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2974,43 +2866,23 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 80.01) (xy 99.06 80.01)
+			(xy 96.52 82.55) (xy 96.52 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1285a4e-3851-4868-9077-81af11aa8085")
+	)
+	(wire
+		(pts
+			(xy 93.98 80.01) (xy 102.87 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c3a0a0eb-1550-4eb5-b55c-7595a55dc657")
-	)
-	(wire
-		(pts
-			(xy 64.77 90.17) (xy 74.93 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c56ac8b3-0eb9-4cfa-b6b4-6fcf005059ec")
-	)
-	(wire
-		(pts
-			(xy 139.7 78.74) (xy 120.65 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c886507d-5361-4ce0-9fff-c02badd5c7bf")
-	)
-	(wire
-		(pts
-			(xy 66.04 92.71) (xy 73.66 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d86a74b3-d29c-41ed-9def-b4c13a99c8c3")
 	)
 	(wire
 		(pts
@@ -3034,7 +2906,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 87.63) (xy 113.03 91.44)
+			(xy 116.84 87.63) (xy 116.84 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3044,43 +2916,43 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 85.09) (xy 90.17 80.01)
+			(xy 93.98 82.55) (xy 96.52 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1738ed6-d38e-40d1-b67a-d891cf762bb9")
+		(uuid "e520fde5-80f9-4374-8d2e-425af74a28e9")
 	)
 	(wire
 		(pts
-			(xy 76.2 87.63) (xy 76.2 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e21284ff-8a0c-4875-bb80-b1ca9329a467")
-	)
-	(wire
-		(pts
-			(xy 120.65 78.74) (xy 120.65 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e212ff48-b0bb-400d-a3cd-981c757eb844")
-	)
-	(wire
-		(pts
-			(xy 104.14 87.63) (xy 113.03 87.63)
+			(xy 107.95 87.63) (xy 116.84 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e63880b5-996f-4794-9d2f-900a10582411")
+	)
+	(wire
+		(pts
+			(xy 90.17 101.6) (xy 96.52 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eecc360b-6ae3-448d-98ae-abcc84c8812d")
+	)
+	(wire
+		(pts
+			(xy 88.9 88.9) (xy 90.17 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb19818-0b4b-4002-a4dd-8aa98e727c97")
 	)
 	(wire
 		(pts
@@ -3094,7 +2966,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 101.6) (xy 80.01 102.87)
+			(xy 96.52 101.6) (xy 96.52 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3124,7 +2996,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 85.09) (xy 113.03 85.09)
+			(xy 107.95 85.09) (xy 116.84 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3134,7 +3006,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 85.09) (xy 113.03 86.36)
+			(xy 73.66 85.09) (xy 73.66 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa4432f0-41a8-486e-abbf-a4c0ad6e2260")
+	)
+	(wire
+		(pts
+			(xy 116.84 85.09) (xy 116.84 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3143,7 +3025,7 @@
 		(uuid "fec51ca5-803b-4dbc-be0a-1b78b1652f23")
 	)
 	(label "5V_Clean"
-		(at 92.71 80.01 0)
+		(at 96.52 80.01 0)
 		(effects
 			(font
 				(size 0.508 0.508)
@@ -3153,7 +3035,7 @@
 		(uuid "1019f41e-8e31-4262-9698-3557154118a1")
 	)
 	(label "GND"
-		(at 120.65 100.33 0)
+		(at 124.46 100.33 0)
 		(effects
 			(font
 				(size 0.381 0.381)
@@ -3163,7 +3045,7 @@
 		(uuid "19c200cc-b6fe-4e30-b2e1-4e7ba21b4727")
 	)
 	(label "GND"
-		(at 80.01 100.33 0)
+		(at 96.52 100.33 0)
 		(effects
 			(font
 				(size 0.381 0.381)
@@ -3182,6 +3064,16 @@
 		)
 		(uuid "bd4fd939-b3a8-4488-8881-950d875bab62")
 	)
+	(label "7V_Clean"
+		(at 99.06 86.36 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9da9b39-b0f5-4587-ab81-6c00bd178c53")
+	)
 	(label "12V_Fused"
 		(at 55.88 80.01 0)
 		(effects
@@ -3193,8 +3085,8 @@
 		(uuid "f833cc9e-f565-4bf7-bd0b-c61a7ec89eeb")
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 85.09 82.55 0)
+		(lib_id "Device:Fuse_Small")
+		(at 58.42 118.11 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3202,31 +3094,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0753fe22-7d89-45d7-830a-fe8ca29146d6")
-		(property "Reference" "J2"
-			(at 78.232 77.724 0)
+		(uuid "072c0362-f142-4d87-9127-a19cde53f46e")
+		(property "Reference" "F1"
+			(at 57.15 118.872 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.635 0.635)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "LM2596 Buck Converter"
-			(at 79.502 77.724 0)
+		(property "Value" "1A"
+			(at 57.15 117.348 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.635 0.635)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 82.55 0)
+			(at 58.42 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3237,7 +3127,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 82.55 0)
+			(at 58.42 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3247,8 +3137,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 85.09 82.55 0)
+		(property "Description" "Fuse, small symbol"
+			(at 58.42 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3257,23 +3147,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "0a2960d3-0912-4212-821b-de328201d984")
-		)
-		(pin "4"
-			(uuid "03eef837-9be9-4ed8-9140-794b2a1255b3")
-		)
-		(pin "3"
-			(uuid "67cc65ee-f31d-45a9-a5f1-71f8516b0379")
 		)
 		(pin "2"
-			(uuid "ac586991-3e30-4137-9fb2-0b2867a96db1")
+			(uuid "ecb66e0b-d9c9-4609-8e66-9c39a3c7df8b")
+		)
+		(pin "1"
+			(uuid "3774cb40-fbc7-453a-bb11-95ed3eaff6c3")
 		)
 		(instances
 			(project "Robot"
 				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
-					(reference "J2")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -3394,8 +3278,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 125.73 91.44 0)
+		(lib_id "Custom_Components:Cytron_MDD10A")
+		(at 121.92 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3403,31 +3287,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "17edfb02-588c-4679-ac71-f559f62c8461")
-		(property "Reference" "J7"
-			(at 125.984 92.71 0)
+		(uuid "10c7fb5e-9a32-4ead-b8a3-01940215f506")
+		(property "Reference" "U1"
+			(at 122.174 122.428 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 0.508 0.508)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "LiDAR Sensor"
-			(at 127.762 92.7101 0)
+		(property "Value" "Cytron MDD10A"
+			(at 126.238 122.428 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 0.508 0.508)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 91.44 0)
+			(at 121.92 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3438,7 +3320,115 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 91.44 0)
+			(at 121.92 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "be9bdd18-b5f5-4992-8ad2-8fa9f8727f2c")
+		)
+		(pin "11"
+			(uuid "3ae30eba-9248-4fc2-9741-f73d72e8fad3")
+		)
+		(pin "3"
+			(uuid "1d3a5175-f3ad-4c84-95eb-31a1ff716c92")
+		)
+		(pin "4"
+			(uuid "40f34dab-2738-4686-b6d5-bad37078d732")
+		)
+		(pin "10"
+			(uuid "bc133d55-b225-40b9-b897-c52d3920cc70")
+		)
+		(pin "7"
+			(uuid "6523332b-41d0-481c-a8f5-3bb033fbe70f")
+		)
+		(pin "8"
+			(uuid "d5033e3c-14a7-441c-9ea9-2c7798e61e95")
+		)
+		(pin "1"
+			(uuid "182e9387-653f-4400-b89d-65e84f87cf3a")
+		)
+		(pin "2"
+			(uuid "65192658-753e-46b2-ab9d-a391bdab4090")
+		)
+		(pin "9"
+			(uuid "596d1f52-fd08-4427-80cd-01d1a926a30d")
+		)
+		(pin "5"
+			(uuid "6d1cf865-d116-4cc0-a02f-d837e90574ff")
+		)
+		(instances
+			(project "Robot"
+				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 129.54 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "17edfb02-588c-4679-ac71-f559f62c8461")
+		(property "Reference" "J7"
+			(at 129.794 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LiDAR Sensor"
+			(at 131.572 92.7101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3449,7 +3439,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 125.73 91.44 0)
+			(at 129.54 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3476,7 +3466,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse_Small")
-		(at 74.93 119.38 270)
+		(at 66.04 118.11 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3486,7 +3476,7 @@
 		(dnp no)
 		(uuid "1d6f5990-1dde-46dc-b92c-49f0686d4990")
 		(property "Reference" "F4"
-			(at 75.692 118.618 90)
+			(at 66.802 117.348 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3496,8 +3486,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20A"
-			(at 75.692 119.634 90)
+		(property "Value" "3A"
+			(at 66.802 118.364 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3508,7 +3498,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 119.38 0)
+			(at 66.04 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3519,7 +3509,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 119.38 0)
+			(at 66.04 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3530,7 +3520,7 @@
 			)
 		)
 		(property "Description" "Fuse, small symbol"
-			(at 74.93 119.38 0)
+			(at 66.04 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3627,6 +3617,112 @@
 			(project "Robot"
 				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_Components:Cytron_MDD10A")
+		(at 121.92 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3bc4237d-fe54-400d-afdf-ec75bc34d672")
+		(property "Reference" "U2"
+			(at 122.174 137.668 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Value" "Cytron MDD10A"
+			(at 126.238 137.668 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "a10ea9f8-20a1-4a84-82a8-edfb345b2045")
+		)
+		(pin "11"
+			(uuid "7d43f580-5d69-48c4-ada5-14e45778f14d")
+		)
+		(pin "3"
+			(uuid "99dca811-0019-4800-842b-299ca67e0fac")
+		)
+		(pin "4"
+			(uuid "ed4ae2fe-35dc-442f-bb1a-d0570dd11fb2")
+		)
+		(pin "10"
+			(uuid "00278896-b065-4c5a-824c-878193f61715")
+		)
+		(pin "7"
+			(uuid "37d98154-88b5-4cd3-9335-903cbef87044")
+		)
+		(pin "8"
+			(uuid "6cddf3f3-47c6-48c0-9a95-4c52ff8706d6")
+		)
+		(pin "1"
+			(uuid "dec707ca-2490-44b4-b51a-3f924fc2b441")
+		)
+		(pin "2"
+			(uuid "f1aac7ce-715d-41e3-b187-d2e1a95be60f")
+		)
+		(pin "9"
+			(uuid "119cc6b9-0490-4b74-b236-17ad3af1a5d4")
+		)
+		(pin "5"
+			(uuid "8800841e-f4a1-4584-979a-5e1f7083de6c")
+		)
+		(instances
+			(project "Robot"
+				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3731,7 +3827,7 @@
 				)
 			)
 		)
-		(property "Value" "50A Breaker"
+		(property "Value" "10A Breaker"
 			(at 45.72 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3791,7 +3887,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 125.73 86.36 0)
+		(at 129.54 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3801,7 +3897,7 @@
 		(dnp no)
 		(uuid "6353d080-b792-43f9-80e1-ca2c5c93a7c3")
 		(property "Reference" "J6"
-			(at 125.984 87.63 0)
+			(at 129.794 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3812,7 +3908,7 @@
 			)
 		)
 		(property "Value" "Oak D Lite Camera"
-			(at 127.762 87.6301 0)
+			(at 131.572 87.6301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3823,7 +3919,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 86.36 0)
+			(at 129.54 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3834,7 +3930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 86.36 0)
+			(at 129.54 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3845,7 +3941,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 125.73 86.36 0)
+			(at 129.54 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3871,8 +3967,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Socket")
-		(at 109.22 85.09 0)
+		(lib_id "Custom_Components:JGB37-520_12V")
+		(at 144.78 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3880,31 +3976,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6b0a9302-79d3-4b28-938f-b347facb45cd")
-		(property "Reference" "J3"
-			(at 100.838 77.216 0)
+		(fields_autoplaced yes)
+		(uuid "67a39b9e-189c-4795-b266-3b46ccaec23f")
+		(property "Reference" "U5"
+			(at 147.32 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 0.508 0.508)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "WAGO 221 - 5 Port"
-			(at 102.616 77.216 0)
+		(property "Value" "JGB37-520"
+			(at 147.32 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 0.508 0.508)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 85.09 0)
+			(at 144.78 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3915,7 +4010,100 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 85.09 0)
+			(at 144.78 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "B"
+			(uuid "b7b01d85-1904-41f1-9ad4-a918945a788d")
+		)
+		(pin "3"
+			(uuid "c353b93e-aca9-4279-ac8c-995d7c7da618")
+		)
+		(pin "2"
+			(uuid "cf9d609f-3a01-4c47-a7ec-a54f830a85c1")
+		)
+		(pin "A"
+			(uuid "b89099a8-b227-45d2-aae1-a6d7fc74cbcb")
+		)
+		(pin "4"
+			(uuid "f54341da-e224-4ae1-b28a-3672bb0a9029")
+		)
+		(pin "1"
+			(uuid "0bc4b539-06f9-494e-a634-67d24dfc6ed5")
+		)
+		(instances
+			(project "Robot"
+				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x05_Socket")
+		(at 113.03 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6b0a9302-79d3-4b28-938f-b347facb45cd")
+		(property "Reference" "J3"
+			(at 104.648 77.216 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WAGO 221 - 5 Port"
+			(at 106.426 77.216 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3926,7 +4114,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 109.22 85.09 0)
+			(at 113.03 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3962,7 +4150,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.65 102.87 0)
+		(at 124.46 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3972,7 +4160,7 @@
 		(dnp no)
 		(uuid "6d455994-cbdb-4700-b1cd-78fb79aedb23")
 		(property "Reference" "#PWR02"
-			(at 120.65 109.22 0)
+			(at 124.46 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3983,7 +4171,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 106.426 0)
+			(at 124.46 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3993,7 +4181,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 102.87 0)
+			(at 124.46 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4004,7 +4192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 102.87 0)
+			(at 124.46 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4015,7 +4203,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 102.87 0)
+			(at 124.46 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4137,112 +4325,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom_Components:Cytron_MDD10A")
-		(at 83.82 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "722941ab-41f0-4b80-8526-35815a31b0da")
-		(property "Reference" "U1"
-			(at 84.328 112.268 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Value" "Cytron MDD10A"
-			(at 89.154 112.268 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "367f5a9d-a637-4c4d-b86e-1ef0560ff651")
-		)
-		(pin "10"
-			(uuid "fb86b48a-5d43-49c9-9255-1214788b7d78")
-		)
-		(pin "11"
-			(uuid "aa3e3928-b104-450a-9431-da591bb9c00f")
-		)
-		(pin "2"
-			(uuid "8099ff81-3bef-43c6-beff-badd20404be8")
-		)
-		(pin "1"
-			(uuid "fadfd8d7-6936-428d-af1e-26c88af6733e")
-		)
-		(pin "7"
-			(uuid "b301822a-f68d-44a4-b78c-7a8bfec20f55")
-		)
-		(pin "5"
-			(uuid "884a01c9-1c56-4867-b26e-bd864d99a473")
-		)
-		(pin "9"
-			(uuid "7a8cf329-4d6a-4a46-ba9d-ebde220eed98")
-		)
-		(pin "3"
-			(uuid "8434de72-1bb7-438c-84ff-1d59fb6b7516")
-		)
-		(pin "4"
-			(uuid "0be499ee-9e0a-4c3d-a2be-60a71ea97665")
-		)
-		(pin "6"
-			(uuid "475871a3-b09e-4040-b90b-b22a4b4ec61c")
-		)
-		(instances
-			(project "Robot"
-				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse_Small")
 		(at 76.2 80.01 0)
 		(unit 1)
@@ -4323,7 +4405,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 102.87 0)
+		(at 96.52 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4333,7 +4415,7 @@
 		(dnp no)
 		(uuid "896bee5d-7996-4934-834e-7ddd1146de6b")
 		(property "Reference" "#PWR03"
-			(at 80.01 109.22 0)
+			(at 96.52 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4344,7 +4426,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 106.426 0)
+			(at 96.52 106.426 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4354,7 +4436,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 102.87 0)
+			(at 96.52 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4365,7 +4447,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 102.87 0)
+			(at 96.52 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4376,7 +4458,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 102.87 0)
+			(at 96.52 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4476,8 +4558,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse_Small")
-		(at 77.47 96.52 270)
+		(lib_id "Custom_Components:LM2596_Buck_Converter")
+		(at 81.28 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4485,31 +4567,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "bb881aad-b8ad-49b6-824d-1ef07df64824")
-		(property "Reference" "F3"
-			(at 78.232 95.758 90)
+		(uuid "a2896c02-1186-42ad-960f-fbe959e04381")
+		(property "Reference" "J4"
+			(at 77.216 84.328 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.508 0.508)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "20A"
-			(at 78.232 96.774 90)
+		(property "Value" "LM2596 Buck Converter"
+			(at 83.82 84.328 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.508 0.508)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 96.52 0)
+			(at 81.28 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4520,7 +4600,94 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 96.52 0)
+			(at 81.28 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "9dd50161-6acf-4934-a731-9924638a7ca8")
+		)
+		(pin "1"
+			(uuid "e9f98bea-3606-40d1-be23-4c606c65b41c")
+		)
+		(pin "2"
+			(uuid "68cea44c-2987-4d1d-842f-fc4051420641")
+		)
+		(pin "3"
+			(uuid "22319486-4847-4615-8331-988f26b188d6")
+		)
+		(instances
+			(project "Robot"
+				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 60.96 118.11 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bb881aad-b8ad-49b6-824d-1ef07df64824")
+		(property "Reference" "F3"
+			(at 61.722 117.348 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3A"
+			(at 61.722 118.364 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4531,7 +4698,7 @@
 			)
 		)
 		(property "Description" "Fuse, small symbol"
-			(at 77.47 96.52 0)
+			(at 60.96 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4558,7 +4725,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 125.73 81.28 0)
+		(at 129.54 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4568,7 +4735,7 @@
 		(dnp no)
 		(uuid "c0439156-10b1-4285-8a32-e28d835ed680")
 		(property "Reference" "J5"
-			(at 125.984 82.55 0)
+			(at 129.794 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4579,7 +4746,7 @@
 			)
 		)
 		(property "Value" "Orange Pi 5"
-			(at 127.508 82.5501 0)
+			(at 131.318 82.5501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4590,7 +4757,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 81.28 0)
+			(at 129.54 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4601,7 +4768,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 81.28 0)
+			(at 129.54 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4612,7 +4779,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 125.73 81.28 0)
+			(at 129.54 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4632,6 +4799,92 @@
 			(project "Robot"
 				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_Components:LM2596_Buck_Converter")
+		(at 86.36 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2f6bf00-7bd9-4686-96d1-b76a7ae59066")
+		(property "Reference" "J2"
+			(at 86.995 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Value" "LM2596 Buck Converter"
+			(at 86.995 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d353591-4481-4d30-ab80-8396d6a05308")
+		)
+		(pin "2"
+			(uuid "abe86034-29ab-47d8-8464-870ac179e86e")
+		)
+		(pin "3"
+			(uuid "eb37571f-088d-4925-b7a8-fcf87e7ee2ee")
+		)
+		(pin "4"
+			(uuid "87275ac9-6a1b-43e9-955d-d4eb9d6dd637")
+		)
+		(instances
+			(project "Robot"
+				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4715,8 +4968,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 125.73 76.2 0)
+		(lib_id "Custom_Components:JGB37-520_12V")
+		(at 144.78 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4724,31 +4977,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f43585e1-22fa-4f5b-9292-68347745b0ab")
-		(property "Reference" "J4"
-			(at 125.984 77.47 0)
+		(fields_autoplaced yes)
+		(uuid "d9da1585-cb65-4dc7-88b6-42b761d96ca8")
+		(property "Reference" "U3"
+			(at 147.32 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 0.508 0.508)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Elegoo Mega 2560 R3"
-			(at 127.508 77.4701 0)
+		(property "Value" "JGB37-520"
+			(at 147.32 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 0.508 0.508)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 76.2 0)
+			(at 144.78 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4759,7 +5011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 76.2 0)
+			(at 144.78 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4769,8 +5021,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 125.73 76.2 0)
+		(property "Description" ""
+			(at 144.78 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4779,17 +5031,29 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "3"
+			(uuid "baa055ef-2598-4324-b36e-a2b687411c2e")
+		)
+		(pin "4"
+			(uuid "5686da5a-2419-4fb9-824d-4a75f089d6e4")
+		)
+		(pin "A"
+			(uuid "15c98c4e-07b2-4dca-a65c-e7e681290d0b")
+		)
+		(pin "B"
+			(uuid "5703fca8-ea9c-4a8f-a14e-26ccc4625035")
 		)
 		(pin "1"
-			(uuid "bb1c8450-656a-4942-a680-3866e16d3b19")
+			(uuid "61cdfb9e-da5c-4d01-ac90-0804161aa010")
 		)
 		(pin "2"
-			(uuid "8b443fb9-09bb-4aa6-b8cb-dba5b0c144e0")
+			(uuid "07fef435-a9ca-422a-b3d6-06a7799f775f")
 		)
 		(instances
 			(project "Robot"
 				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
-					(reference "J4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4797,7 +5061,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 99.06 78.74 0)
+		(at 102.87 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4807,7 +5071,7 @@
 		(dnp no)
 		(uuid "fac39177-cd0f-47fd-b84d-59b3871c563d")
 		(property "Reference" "#FLG06"
-			(at 99.06 76.835 0)
+			(at 102.87 76.835 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4818,7 +5082,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 99.06 75.692 0)
+			(at 102.87 75.692 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4828,7 +5092,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 78.74 0)
+			(at 102.87 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4839,7 +5103,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 78.74 0)
+			(at 102.87 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4850,7 +5114,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 99.06 78.74 0)
+			(at 102.87 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4867,112 +5131,6 @@
 			(project "Robot"
 				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
 					(reference "#FLG06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Custom_Components:Cytron_MDD10A")
-		(at 83.82 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fbeb4297-7b39-45fd-938e-3056b2cb31ed")
-		(property "Reference" "U2"
-			(at 84.328 127.254 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Value" "Cytron MDD10A"
-			(at 88.9 127.254 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "9"
-			(uuid "5a8a38f4-fb01-489f-8bf5-a3f60ac7ee40")
-		)
-		(pin "10"
-			(uuid "6bbc9613-9ef9-4b8d-a6e1-1692125fd676")
-		)
-		(pin "6"
-			(uuid "991c9d3b-2fc5-4f85-9c64-b928804e48c8")
-		)
-		(pin "11"
-			(uuid "9dfdd765-1193-4ebe-a99a-36f6f89607e8")
-		)
-		(pin "8"
-			(uuid "7dd5a1fd-2c40-44fc-b697-7aebbd8bd489")
-		)
-		(pin "1"
-			(uuid "2c7c3db8-d009-4f71-9a8f-9043d731fefc")
-		)
-		(pin "5"
-			(uuid "0a5f4e54-2db9-4543-9ed3-39ae8ac13f93")
-		)
-		(pin "4"
-			(uuid "96c12c8d-07b8-48ce-a931-027087ced499")
-		)
-		(pin "3"
-			(uuid "c522eadb-a895-4239-86e0-c3cfdf34e931")
-		)
-		(pin "2"
-			(uuid "b2c527fb-18fe-4e04-9f5a-d6ff395b6aa2")
-		)
-		(pin "7"
-			(uuid "3ceb1498-cc4e-46bc-afa6-fde65586f54f")
-		)
-		(instances
-			(project "Robot"
-				(path "/5327e841-c188-4aaa-a450-fde1e5fc6222"
-					(reference "U2")
 					(unit 1)
 				)
 			)
