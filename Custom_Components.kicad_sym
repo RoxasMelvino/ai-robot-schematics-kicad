@@ -9,22 +9,22 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -2.794 -1.27 0)
+			(at -0.508 -4.064 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.508 0.508)
 				)
 			)
 		)
 		(property "Value" "Cytron MDD10A"
-			(at 6.096 -1.27 0)
+			(at 3.048 -4.064 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.508 0.508)
 				)
 			)
 		)
@@ -63,127 +63,127 @@
 		)
 		(symbol "Cytron_MDD10A_0_0"
 			(pin power_in line
-				(at -6.35 -6.35 0)
+				(at -3.81 -7.62 0)
 				(length 2.54)
 				(name "B+"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 0.381 0.381)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.381 0.381)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at -6.35 -8.89 0)
+				(at -3.81 -10.16 0)
 				(length 2.54)
 				(name "B-"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 0.381 0.381)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.381 0.381)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 13.97 -11.43 180)
+				(at 8.89 -10.16 180)
 				(length 2.54)
 				(name "M1A"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 0.381 0.381)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.381 0.381)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 13.97 -8.89 180)
+				(at 8.89 -8.89 180)
 				(length 2.54)
 				(name "M1B"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 0.381 0.381)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.381 0.381)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 13.97 -6.35 180)
+				(at 8.89 -7.62 180)
 				(length 2.54)
 				(name "M2A"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 0.381 0.381)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.381 0.381)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 13.97 -3.81 180)
+				(at 8.89 -6.35 180)
 				(length 2.54)
 				(name "M2B"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 0.381 0.381)
 						)
 					)
 				)
 				(number "6"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.381 0.381)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 7.62 -15.24 90)
+				(at 5.08 -15.24 90)
 				(length 2.54)
 				(name "GND"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 0.381 0.381)
 						)
 					)
 				)
 				(number "7"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.381 0.381)
 						)
 					)
 				)
@@ -194,50 +194,32 @@
 				(name "PWM1"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 0.381 0.381)
 						)
 					)
 				)
 				(number "8"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.381 0.381)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at 5.08 -15.24 90)
+				(at 3.81 -15.24 90)
 				(length 2.54)
 				(name "PWM2"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 0.381 0.381)
 						)
 					)
 				)
 				(number "9"
 					(effects
 						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 -15.24 90)
-				(length 2.54)
-				(name "DIR1"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
+							(size 0.381 0.381)
 						)
 					)
 				)
@@ -245,17 +227,35 @@
 			(pin input line
 				(at 0 -15.24 90)
 				(length 2.54)
+				(name "DIR1"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 1.27 -15.24 90)
+				(length 2.54)
 				(name "DIR2"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 0.381 0.381)
 						)
 					)
 				)
 				(number "11"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.381 0.381)
 						)
 					)
 				)
@@ -263,8 +263,8 @@
 		)
 		(symbol "Cytron_MDD10A_0_1"
 			(rectangle
-				(start -3.81 -2.54)
-				(end 11.43 -12.7)
+				(start -1.27 -5.08)
+				(end 6.35 -12.7)
 				(stroke
 					(width 0)
 					(type default)
@@ -283,7 +283,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
-			(at -10.922 -0.508 0)
+			(at 30.988 2.286 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -293,7 +293,7 @@
 			)
 		)
 		(property "Value" "Mega 2560 R3"
-			(at -6.604 -0.508 0)
+			(at 35.052 2.032 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -337,7 +337,7 @@
 		)
 		(symbol "Elegoo_Mega_2560_R3_0_0"
 			(pin power_in line
-				(at -6.35 -6.35 0)
+				(at 8.89 -16.51 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -355,7 +355,7 @@
 				)
 			)
 			(pin power_in line
-				(at -6.35 -7.62 0)
+				(at 8.89 -15.24 0)
 				(length 2.54)
 				(name "5V"
 					(effects
@@ -373,7 +373,7 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 -7.62 180)
+				(at 31.75 -10.16 270)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -391,9 +391,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -1.27 270)
+				(at 13.97 -10.16 270)
 				(length 2.54)
-				(name "D0"
+				(name "PWM3"
 					(effects
 						(font
 							(size 0.381 0.381)
@@ -409,9 +409,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 7.62 -1.27 270)
+				(at 15.24 -10.16 270)
 				(length 2.54)
-				(name "D1"
+				(name "PWM4"
 					(effects
 						(font
 							(size 0.381 0.381)
@@ -427,9 +427,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 5.08 -1.27 270)
+				(at 16.51 -10.16 270)
 				(length 2.54)
-				(name "D2_(INT0)"
+				(name "PWM5"
 					(effects
 						(font
 							(size 0.381 0.381)
@@ -445,9 +445,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 2.54 -1.27 270)
+				(at 17.78 -10.16 270)
 				(length 2.54)
-				(name "D3_(INT1)"
+				(name "PWM6"
 					(effects
 						(font
 							(size 0.381 0.381)
@@ -463,9 +463,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 2.54 -12.7 90)
+				(at 20.32 -10.16 270)
 				(length 2.54)
-				(name "~D4"
+				(name "D2_INT0"
 					(effects
 						(font
 							(size 0.381 0.381)
@@ -481,9 +481,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 5.08 -12.7 90)
+				(at 21.59 -10.16 270)
 				(length 2.54)
-				(name "~D5"
+				(name "D3_INT1"
 					(effects
 						(font
 							(size 0.381 0.381)
@@ -499,9 +499,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 7.62 -12.7 90)
+				(at 22.86 -10.16 270)
 				(length 2.54)
-				(name "~D6"
+				(name "D18_INT5"
 					(effects
 						(font
 							(size 0.381 0.381)
@@ -517,9 +517,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -12.7 90)
+				(at 24.13 -10.16 270)
 				(length 2.54)
-				(name "~D7"
+				(name "D19_INT4"
 					(effects
 						(font
 							(size 0.381 0.381)
@@ -535,145 +535,109 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -25.4 90)
+				(at 25.4 -10.16 270)
 				(length 2.54)
-				(name "D8"
+				(name "D20_INT3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.381 0.381)
 						)
 					)
 				)
 				(number "12"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.381 0.381)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 -25.4 90)
+				(at 26.67 -10.16 270)
 				(length 2.54)
-				(name "D9"
+				(name "D21_INT2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.381 0.381)
 						)
 					)
 				)
 				(number "13"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.381 0.381)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -25.4 90)
+				(at 20.32 -21.59 90)
 				(length 2.54)
-				(name "D10"
+				(name "D23"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.381 0.381)
 						)
 					)
 				)
 				(number "14"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.381 0.381)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -25.4 90)
+				(at 21.59 -21.59 90)
 				(length 2.54)
-				(name "D11"
+				(name "D25"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.381 0.381)
 						)
 					)
 				)
 				(number "15"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.381 0.381)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 -25.4 90)
+				(at 22.86 -21.59 90)
 				(length 2.54)
-				(name "D12"
+				(name "D27"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.381 0.381)
 						)
 					)
 				)
 				(number "16"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.381 0.381)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 -25.4 90)
+				(at 24.13 -21.59 90)
 				(length 2.54)
-				(name "D13"
+				(name "D29"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.381 0.381)
 						)
 					)
 				)
 				(number "17"
 					(effects
 						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 33.02 -25.4 90)
-				(length 2.54)
-				(name "D20_(INT3)"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 35.56 -25.4 90)
-				(length 2.54)
-				(name "D21_(INT2)"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
+							(size 0.381 0.381)
 						)
 					)
 				)
@@ -681,8 +645,8 @@
 		)
 		(symbol "Elegoo_Mega_2560_R3_0_1"
 			(rectangle
-				(start -3.81 -3.81)
-				(end 17.78 -10.16)
+				(start 11.43 -12.7)
+				(end 33.02 -19.05)
 				(stroke
 					(width 0)
 					(type default)
@@ -701,7 +665,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 -4.064 0)
+			(at 2.54 -3.048 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -711,7 +675,7 @@
 			)
 		)
 		(property "Value" "JGB37-520"
-			(at 2.794 -4.064 0)
+			(at 5.334 -3.048 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -755,7 +719,7 @@
 		)
 		(symbol "JGB37-520_12V_0_0"
 			(pin power_in line
-				(at -5.08 -6.35 0)
+				(at -1.27 -1.27 270)
 				(length 2.54)
 				(name "Motor+"
 					(effects
@@ -767,13 +731,13 @@
 				(number "1"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 0.381 0.381)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at -5.08 -8.89 0)
+				(at -2.54 -1.27 270)
 				(length 2.54)
 				(name "Motor-"
 					(effects
@@ -785,13 +749,13 @@
 				(number "2"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 0.381 0.381)
 						)
 					)
 				)
 			)
-			(pin input line
-				(at 1.27 -12.7 90)
+			(pin power_in line
+				(at -1.27 -12.7 90)
 				(length 2.54)
 				(name "Hall_GND"
 					(effects
@@ -803,13 +767,13 @@
 				(number "3"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 0.381 0.381)
 						)
 					)
 				)
 			)
-			(pin input line
-				(at 3.81 -12.7 90)
+			(pin power_in line
+				(at 0 -12.7 90)
 				(length 2.54)
 				(name "Hall_VCC"
 					(effects
@@ -821,43 +785,43 @@
 				(number "4"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 0.381 0.381)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 10.16 -6.35 180)
+				(at 1.27 -12.7 90)
 				(length 2.54)
-				(name "Hall_VOUT"
+				(name "Hall_A_VOUT"
 					(effects
 						(font
 							(size 0.381 0.381)
 						)
 					)
 				)
-				(number "A"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 10.16 -8.89 180)
-				(length 2.54)
-				(name "Hall_VOUT"
+				(number "5"
 					(effects
 						(font
 							(size 0.381 0.381)
 						)
 					)
 				)
-				(number "B"
+			)
+			(pin passive line
+				(at 2.54 -12.7 90)
+				(length 2.54)
+				(name "Hall_B_VOUT"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.381 0.381)
 						)
 					)
 				)
@@ -865,8 +829,8 @@
 		)
 		(symbol "JGB37-520_12V_0_1"
 			(rectangle
-				(start -2.54 -5.08)
-				(end 7.62 -10.16)
+				(start -3.81 -3.81)
+				(end 5.08 -10.16)
 				(stroke
 					(width 0)
 					(type default)
@@ -885,22 +849,22 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
-			(at -4.572 -1.27 0)
+			(at -3.81 -3.048 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 0.381 0.381)
 				)
 			)
 		)
 		(property "Value" "LM2596 Buck Converter"
-			(at 2.032 -1.27 0)
+			(at 0 -3.048 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 0.381 0.381)
 				)
 			)
 		)
@@ -939,19 +903,19 @@
 		)
 		(symbol "LM2596_Buck_Converter_0_0"
 			(pin power_in line
-				(at -6.35 -3.81 0)
+				(at -6.35 -5.08 0)
 				(length 2.54)
 				(name "IN+"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 0.381 0.381)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 0.381 0.381)
 						)
 					)
 				)
@@ -962,50 +926,50 @@
 				(name "IN-"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 0.381 0.381)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 0.381 0.381)
 						)
 					)
 				)
 			)
 			(pin power_out line
-				(at 7.62 -3.81 180)
+				(at 3.81 -5.08 180)
 				(length 2.54)
 				(name "OUT+"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 0.381 0.381)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 0.381 0.381)
 						)
 					)
 				)
 			)
 			(pin power_out line
-				(at 7.62 -6.35 180)
+				(at 3.81 -6.35 180)
 				(length 2.54)
 				(name "OUT-"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 0.381 0.381)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 0.635 0.635)
+							(size 0.381 0.381)
 						)
 					)
 				)
@@ -1013,8 +977,8 @@
 		)
 		(symbol "LM2596_Buck_Converter_0_1"
 			(rectangle
-				(start -3.81 -2.54)
-				(end 5.08 -7.62)
+				(start -3.81 -3.81)
+				(end 1.27 -7.62)
 				(stroke
 					(width 0)
 					(type default)
